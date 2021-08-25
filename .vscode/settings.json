@@ -1,5 +1,6 @@
 {
     "conventionalCommits.scopes": [
-        "go-rest-api"
+        "go-rest-api",
+        "go-gopher-cli"
     ]
 }
