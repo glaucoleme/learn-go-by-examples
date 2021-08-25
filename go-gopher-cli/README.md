@@ -1,6 +1,6 @@
 # go-gopher-cli
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/glaucoleme/learning-go-by-examples)](https://goreportcard.com/report/github.com/glaucoleme/learning-go-by-examples)
+[![Go Report Card](https://goreportcard.com/badge/github.com/glaucoleme/learn-go-by-examples)](https://goreportcard.com/report/github.com/glaucoleme/learn-go-by-examples)
 
 This repo contains a simple CLI (Command Line Interface) application in Go, with a basic code organization.
 We use:
