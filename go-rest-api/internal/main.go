@@ -39,14 +39,17 @@ func main() {
 	}
 }
 
+//Health route to check status
 func Health(operations.CheckHealthParams) middleware.Responder {
 	return operations.NewCheckHealthOK().WithPayload("OK")
 }
 
+//GetHelloUser returns user's name
 func GetHelloUser(user operations.GetHelloUserParams) middleware.Responder {
 	return operations.NewGetHelloUserOK().WithPayload("Hi " + user.User + "!")
 }
 
+//GetGopherByName returns a gopher in image (PNG)
 func GetGopherByName(gopher operations.GetGopherNameParams) middleware.Responder {
 	var URL string
 	if gopher.Name != "" {
