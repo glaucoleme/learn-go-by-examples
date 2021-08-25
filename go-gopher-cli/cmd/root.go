@@ -30,7 +30,7 @@ var cfgFile string
 var rootCmd = &cobra.Command{
 	Use:   "go-gopher-cli",
 	Short: "Gopher CLI in Go",
-	Long: `A Gopher CLI application written in Golang.`,
+	Long:  `A Gopher CLI application written in Golang.`,
 	// Uncomment the following line if your bare application
 	// has an action associated with it:
 	// Run: func(cmd *cobra.Command, args []string) { },
